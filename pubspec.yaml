@@ -1,0 +1,31 @@
+name: globally_brilliant_security
+description: A professional website for Globally Brilliant Security 1 2 Z Services
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  go_router: ^12.1.3
+  google_fonts: ^6.1.0
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  file_picker: ^6.1.1
+  url_launcher: ^6.2.1
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
